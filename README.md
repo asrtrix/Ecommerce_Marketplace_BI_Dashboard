@@ -1,11 +1,5 @@
 # E-Commerce Marketplace BI Dashboard – Power BI & Python Project
 
-<!--
-To add dashboard screenshots later:
-1. Open this README on GitHub in Edit mode.
-2. Drag and drop a clean screenshot directly where each placeholder appears.
-3. GitHub will insert a hosted image link automatically.
--->
 
 ## Introduction
 
@@ -73,15 +67,13 @@ Key attributes include:
 - **🚚 Actual and Estimated Delivery Dates**
 - **📅 Purchase Dates and Monthly Trends**
 
-> **Note:** Raw source files and generated CSV outputs are intentionally not included in this repository. To reproduce the workflow, download the Olist dataset locally, place the source files in a `raw_data/` folder, and run the included Python notebook or script.
-
 ---
 
 ## Dashboard Breakdown
 
 ### 📊 Dashboard 1: Executive Overview
 
-<!-- Paste Executive Overview screenshot here -->
+<img width="1490" height="836" alt="image" src="https://github.com/user-attachments/assets/f4f324fb-8a09-489e-a37f-7e64e9053c2a" />
 
 **Business Questions:**  
 *How is the marketplace performing overall across revenue, orders, customer experience, and regional demand?*
@@ -100,7 +92,7 @@ The marketplace generated **15.85M in revenue** across **98,666 orders** from **
 
 ### 📦 Dashboard 2: Product & Category Analysis
 
-<!-- Paste Product & Category Analysis screenshot here -->
+<img width="1494" height="837" alt="image" src="https://github.com/user-attachments/assets/c00e5348-5473-4990-ac5d-fc150870343a" />
 
 **Business Questions:**  
 *Which high-volume product categories drive order volume, freight cost, customer satisfaction, and delivery risk?*
@@ -120,7 +112,7 @@ Category performance varies beyond order volume: high-volume categories can diff
 
 ### 📋 Dashboard 3: Category Details
 
-<!-- Paste Category Details screenshot here -->
+<img width="1492" height="839" alt="image" src="https://github.com/user-attachments/assets/6149fa7f-9eba-4196-beb2-6ab0530f1cc5" />
 
 **Business Questions:**  
 *What are the exact category-level metrics behind the dashboard rankings?*
@@ -137,7 +129,7 @@ The detailed table enables comparison of commercial performance and customer exp
 
 ### 🚚 Dashboard 4: Delivery & Customer Experience
 
-<!-- Paste Delivery & Customer Experience screenshot here -->
+<img width="1496" height="839" alt="image" src="https://github.com/user-attachments/assets/573998ff-c877-4467-9f66-058b15aed7ae" />
 
 **Business Questions:**  
 *How do delivery performance and regional delivery risk affect customer satisfaction?*
@@ -157,7 +149,7 @@ Late deliveries were strongly associated with lower customer satisfaction: the a
 
 ### 🏪 Dashboard 5: Seller Performance
 
-<!-- Paste Seller Performance screenshot here -->
+<img width="1493" height="840" alt="image" src="https://github.com/user-attachments/assets/94b8743b-a39c-4fcf-a3dd-a51204a5be0d" />
 
 **Business Questions:**  
 *Which sellers drive marketplace performance, and where are seller-related delivery or review risks concentrated?*
@@ -195,30 +187,6 @@ Seller performance is not defined only by revenue or order volume. The dashboard
 - Identified a **7.93% late delivery rate** across marketplace orders.
 - Quantified the customer experience impact of late deliveries: **4.21 average review score for on-time deliveries vs 2.55 for late deliveries**.
 - Used conditional formatting and gradient visuals to surface higher delivery risk and lower customer satisfaction across categories and seller/customer states.
-
----
-
-## Repository Contents
-
-```text
-ecommerce-marketplace-bi-dashboard/
-│
-├── README.md
-├── 01_create_dashboard_orders_summary.py
-├── 01_create_dashboard_orders_summary.ipynb
-└── project_1_bi_dashboard.pbix
-```
-
----
-
-## How to Reproduce the Project
-
-1. Download the Olist Brazilian e-commerce source files locally.
-2. Create a local `raw_data/` folder inside the project directory.
-3. Place the source CSV files in that folder.
-4. Run `01_create_dashboard_orders_summary.py` or the Jupyter notebook.
-5. Open `project_1_bi_dashboard.pbix` in Power BI Desktop.
-6. Update the Power BI data source path to the generated dashboard dataset if required.
 
 ---
 
